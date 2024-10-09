@@ -11,4 +11,4 @@ This extension allows frontend users to subscribe or unsubscribe from newsletter
 - **Newsletter Unsubscription:**
   For existing users, unsubscribing is just as simple. If a user was previously subscribed, the `mail_active` flag is set to `0` to indicate unsubscription. For users who registered solely for the newsletter, unsubscribing also sets the `deleted` flag to `1`, ensuring that they are no longer active in the system.
 
-This extension makes managing newsletter subscriptions seamless, especially when paired with the Medieessenz Mail extension.
+This extension makes managing newsletter subscriptions seamless when paired with the Medieessenz Mail extension.
