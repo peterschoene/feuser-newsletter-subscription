@@ -1,0 +1,33 @@
+<f:flashMessages />
+<div class="tx_feuser-newsletter-subscription">
+    <h3>
+        <f:translate key="newsletter_subscribe" extensionName="FeuserNewsletterSubscription" />
+    </h3>
+    <p>
+        <f:translate key="newsletter_form_description" extensionName="FeuserNewsletterSubscription" />
+    </p>
+
+    <!-- Formular zur Anmeldung -->
+    <f:form action="subscribe" controller="Newsletter" method="post">
+
+        <f:form.textfield name="first_name" id="first_name" placeholder="{f:translate(key:'first_name_placeholder')}"
+            required="required" class="input" />
+        <f:form.textfield name="last_name" id="last_name" placeholder="{f:translate(key:'last_name_placeholder')}"
+            required="required" class="input" />
+
+        <f:form.textfield name="email" id="email" type="email" placeholder="{f:translate(key:'email_placeholder')}"
+            required="required" class="input" />
+        <div class="check-html">
+            <label for="mail_html">
+                <f:translate key="mail_html_label" extensionName="FeuserNewsletterSubscription" />
+            </label>
+            <f:form.checkbox name="mail_html" id="mail_html" value="1" />
+        </div>
+        <f:form.textfield name="schwammerl" id="schwammerl" style="display:none;" />
+
+        <f:form.button type="submit" class="btn btn-primary"
+            name="{f:translate(key:'subscribe_button', extensionName: 'FeuserNewsletterSubscription')}"
+            value="{f:translate(key:'subscribe_button', extensionName: 'FeuserNewsletterSubscription')}">
+            {f:translate(key:'subscribe_button', extensionName: 'FeuserNewsletterSubscription')}</f:form.button>
+    </f:form>
+</div>

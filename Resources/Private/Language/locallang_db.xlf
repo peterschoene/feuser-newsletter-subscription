@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" datatype="plaintext" original="EXT:feuser_newsletter_subscription/Resources/Private/Language/locallang_db.xlf" date="2024-10-09T10:58:09Z" product-name="feuser_newsletter_subscription">
+		<header/>
+		<body>
+			<trans-unit id="feuser-newsletter-subscription_plugin_title" resname="feuser-newsletter-subscription_plugin_title">
+				<source>Newsletter Subscription New</source>
+			</trans-unit>
+			<trans-unit id="subscribe_plugin_description" resname="subscribe_plugin_description">
+				<source>Subscribe to tx_mail Newsletter</source>
+			</trans-unit>
+			<trans-unit id="subscribe_plugin_title" resname="subscribe_plugin_title">
+				<source>Subscribe</source>
+			</trans-unit>
+			<trans-unit id="unsubscribe_plugin_description" resname="unsubscribe_plugin_description">
+				<source>Unsubscribe to tx_mail Newsletter</source>
+			</trans-unit>
+			<trans-unit id="unsubscribe_plugin_title" resname="unsubscribe_plugin_title">
+				<source>Unsubscribe</source>
+			</trans-unit>
+			<trans-unit id="subscribe_success">
+				<source>You have successfully subscribed to the newsletter.</source>
+			</trans-unit>
+			<trans-unit id="subscribe_already">
+				<source>You are already subscribed to the newsletter.</source>
+			</trans-unit>
+			<trans-unit id="subscribe_success_new_user">
+				<source>Thank you for subscribing! A new account has been created for you.</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

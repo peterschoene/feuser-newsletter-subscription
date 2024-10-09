@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" datatype="plaintext" original="EXT:feuser_newsletter_subscription/Resources/Private/Language/locallang.xlf" date="2024-10-09T11:41:50Z" product-name="feuser_newsletter_subscription">
+		<header/>
+		<body>
+			<trans-unit id="email_placeholder" resname="email_placeholder">
+				<source>Your email address</source>
+			</trans-unit>
+			<trans-unit id="first_name_placeholder" resname="first_name_placeholder">
+				<source>First Name</source>
+			</trans-unit>
+			<trans-unit id="last_name_placeholder" resname="last_name_placeholder">
+				<source>Last Name</source>
+			</trans-unit>
+			<trans-unit id="mail_html_label" resname="mail_html_label">
+				<source>Receive HTML emails?</source>
+			</trans-unit>
+			<trans-unit id="newsletter_form_description" resname="newsletter_form_description">
+				<source>Here you can sign up for our quarterly newsletter.</source>
+			</trans-unit>
+			<trans-unit id="newsletter_subscribe" resname="newsletter_subscribe">
+				<source>Subscribe to newletter</source>
+			</trans-unit>
+			<trans-unit id="newsletter_unsubscribe" resname="newsletter_unsubscribe">
+				<source>Unsubscribe newsletter</source>
+			</trans-unit>
+			<trans-unit id="subscribe_already" resname="subscribe_already">
+				<source>You are already subscribed to the newsletter.</source>
+			</trans-unit>
+			<trans-unit id="subscribe_button" resname="subscribe_button">
+				<source>Subscribe</source>
+			</trans-unit>
+			<trans-unit id="subscribe_error" resname="subscribe_error">
+				<source>Email address not found.</source>
+			</trans-unit>
+			<trans-unit id="subscribe_success" resname="subscribe_success">
+				<source>You have successfully subscribed to the newsletter.</source>
+			</trans-unit>
+			<trans-unit id="subscribe_success_new_user" resname="subscribe_success_new_user">
+				<source>Thank you for subscribing! A new account has been created for you.</source>
+			</trans-unit>
+			<trans-unit id="unsubscribe_already" resname="unsubscribe_already">
+				<source>You are already unsubscribed.</source>
+			</trans-unit>
+			<trans-unit id="unsubscribe_button" resname="unsubscribe_button">
+				<source>Unsubscribe</source>
+			</trans-unit>
+			<trans-unit id="unsubscribe_description" resname="unsubscribe_description">
+				<source>Here you can unsubscribe our newsletter.</source>
+			</trans-unit>
+			<trans-unit id="unsubscribe_error" resname="unsubscribe_error">
+				<source>Email address not found.</source>
+			</trans-unit>
+			<trans-unit id="unsubscribe_success" resname="unsubscribe_success">
+				<source>You have successfully unsubscribed from the newsletter.</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

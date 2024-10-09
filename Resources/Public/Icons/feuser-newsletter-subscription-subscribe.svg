@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;">
+    <path d="M16,7.931C13.586,5.118 9.553,4.248 6.529,6.824C3.504,9.4 3.079,13.707 5.454,16.753C7.428,19.286 13.404,24.628 15.363,26.357C15.582,26.551 15.691,26.647 15.819,26.685C15.931,26.718 16.053,26.718 16.164,26.685C16.292,26.647 16.402,26.551 16.621,26.357C18.579,24.628 24.555,19.286 26.53,16.753C28.905,13.707 28.531,9.373 25.455,6.824C22.379,4.276 18.414,5.118 16,7.931Z" style="fill:rgb(1,1,1);stroke:black;stroke-width:2.68px;"/>
+    <circle cx="22.976" cy="23.907" r="5.019" style="fill:rgb(0,120,230);"/>
+    <clipPath id="_clip1">
+        <circle cx="22.976" cy="23.907" r="5.019"/>
+    </clipPath>
+    <g clip-path="url(#_clip1)">
+        <g>
+            <path d="M20.152,22.463L22.976,23.875L25.799,22.463C25.767,22.087 25.454,21.805 25.109,21.805L20.842,21.805C20.497,21.773 20.184,22.087 20.152,22.463Z" style="fill:white;fill-rule:nonzero;"/>
+            <path d="M25.799,23.248L22.976,24.659L20.152,23.248L20.152,25.318C20.152,25.695 20.466,26.008 20.842,26.008L25.077,26.008C25.454,26.008 25.767,25.695 25.767,25.318L25.767,23.248L25.799,23.248Z" style="fill:white;fill-rule:nonzero;"/>
+        </g>
+    </g>
+    <circle cx="22.976" cy="23.907" r="5.019" style="fill:none;stroke:black;stroke-width:0.35px;stroke-miterlimit:1.5;"/>
+</svg>

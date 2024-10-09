@@ -1,0 +1,22 @@
+plugin.tx_feusernewslettersubscription {
+    view {
+        templateRootPaths {
+            0 = EXT:feuser_newsletter_subscription/Resources/Private/Templates/
+            1 = {$plugin.tx_feusernewslettersubscription.view.templateRootPath}
+        }
+
+        partialRootPaths {
+            0 = EXT:feuser_newsletter_subscription/Resources/Private/Partials/
+            1 = {$plugin.tx_feusernewslettersubscription.view.partialRootPath}
+        }
+
+        layoutRootPaths {
+        0 = EXT:feuser_newsletter_subscription/Resources/Private/Layouts/
+        1 = {$plugin.tx_feusernewslettersubscription.view.layoutRootPath}
+        }
+    }
+
+    persistence {
+        storagePid = {$plugin.tx_feusernewslettersubscription.persistence.storagePid}
+    }
+}
