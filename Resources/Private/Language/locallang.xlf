@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-	<file source-language="en" datatype="plaintext" original="EXT:feuser_newsletter_subscription/Resources/Private/Language/locallang.xlf" date="2024-10-09T11:41:50Z" product-name="feuser_newsletter_subscription">
+	<file source-language="en" datatype="plaintext" original="EXT:feuser_newsletter_subscription/Resources/Private/Language/locallang.xlf" date="2024-10-12T09:00:14Z" product-name="feuser_newsletter_subscription">
 		<header/>
 		<body>
+			<trans-unit id="email_label" resname="email_label">
+				<source>Your email address</source>
+			</trans-unit>
 			<trans-unit id="email_placeholder" resname="email_placeholder">
 				<source>Your email address</source>
 			</trans-unit>
+			<trans-unit id="first_name_label" resname="first_name_label">
+				<source>First Name</source>
+			</trans-unit>
 			<trans-unit id="first_name_placeholder" resname="first_name_placeholder">
 				<source>First Name</source>
+			</trans-unit>
+			<trans-unit id="last_name_label" resname="last_name_label">
+				<source>Last Name</source>
 			</trans-unit>
 			<trans-unit id="last_name_placeholder" resname="last_name_placeholder">
 				<source>Last Name</source>
