@@ -9,21 +9,31 @@
 
     <!-- Formular zur Anmeldung -->
     <f:form action="subscribe" controller="Newsletter" method="post">
-
+        <label for="first_name">
+            <f:translate key="first_name_label" extensionName="FeuserNewsletterSubscription" />
+        </label>
         <f:form.textfield name="first_name" id="first_name" placeholder="{f:translate(key:'first_name_placeholder')}"
             required="required" class="input" />
+
+        <label for="last_name">
+            <f:translate key="last_name_label" extensionName="FeuserNewsletterSubscription" />
+        </label>
         <f:form.textfield name="last_name" id="last_name" placeholder="{f:translate(key:'last_name_placeholder')}"
             required="required" class="input" />
 
+        <label for="email">
+            <f:translate key="email_label" extensionName="FeuserNewsletterSubscription" />
+        </label>
         <f:form.textfield name="email" id="email" type="email" placeholder="{f:translate(key:'email_placeholder')}"
-            required="required" class="input" />
+        required="required" class="input" />
+
         <div class="check-html">
             <label for="mail_html">
                 <f:translate key="mail_html_label" extensionName="FeuserNewsletterSubscription" />
             </label>
             <f:form.checkbox name="mail_html" id="mail_html" value="1" />
         </div>
-        <f:form.textfield name="schwammerl" id="schwammerl" style="display:none;" />
+        <f:form.textfield name="schwammerl" id="schwammerl" style="display:none;"  class="input" />
 
         <f:form.button type="submit" class="btn btn-primary"
             name="{f:translate(key:'subscribe_button', extensionName: 'FeuserNewsletterSubscription')}"

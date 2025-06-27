@@ -11,9 +11,9 @@
 
     <!-- Formular zur Abmeldung -->
     <f:form action="unsubscribe" controller="Newsletter" method="post">
-        <!--label for="email">
+        <label for="email">
             <f:translate key="email_label" />
-        </label-->
+        </label>
         <f:form.textfield name="email" id="email"
             placeholder="{f:translate(key:'email_placeholder', extensionName: 'FeuserNewsletterSubscription')}" />
         <f:form.button type="submit" name="{f:translate(key:'unsubscribe_button', extensionName: 'FeuserNewsletterSubscription')}" class="btn btn-primary">{f:translate(key:'unsubscribe_button', extensionName: 'FeuserNewsletterSubscription')}</f:form.button>
