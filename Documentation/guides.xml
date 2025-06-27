@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<guides xmlns="https://www.phpdoc.org/guides"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://www.phpdoc.org/guides ../vendor/phpdocumentor/guides-cli/resources/schema/guides.xsd"
+        links-are-relative="true"
+>
+  <extension class="\T3Docs\Typo3DocsTheme\DependencyInjection\Typo3DocsThemeExtension"
+             project-home="https://github.com/peterschoene/feuser-newsletter-subscription"
+             project-contact="dev@peterschoene.de"
+             project-repository="https://github.com/peterschoene/feuser-newsletter-subscription"
+             project-issues="https://github.com/peterschoene/feuser-newsletter-subscription/issues"
+             project-discussions="https://github.com/peterschoene/feuser-newsletter-subscription/discussions"
+             edit-on-github-branch="main"
+             edit-on-github="peterschoene/feuser-newsletter-subscription"
+             typo3-core-preferred="stable"
+             interlink-shortcode="typo3/feuser-newsletter-subscription"
+  />
+  <project title="Feuser Newsletter Subscription"
+           release="1.0.0"
+           version="1.0.0"
+           copyright="Peter Schöne"
+  />
+  <inventory id="t3coreapi"
+             url="https://docs.typo3.org/m/typo3/reference-coreapi/main/en-us/"
+  />
+  <inventory id="t3sitepackage"
+             url="https://docs.typo3.org/m/typo3/tutorial-sitepackage/main/en-us/"
+  />
+  <inventory id="t3viewhelper"
+             url="https://docs.typo3.org/other/typo3/view-helper-reference/main/en-us/"
+  />
+  <inventory id="t3upgrade"
+             url="https://docs.typo3.org/m/typo3/guide-installation/main/en-us/"
+  />
+</guides>
